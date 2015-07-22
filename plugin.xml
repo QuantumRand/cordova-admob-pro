@@ -44,7 +44,7 @@
         <source-file src="src/android/AdMobMediation.java" target-dir="src/com/rjfun/cordova/admob" />
         <source-file src="src/android/AdMobPlugin.java" target-dir="src/com/rjfun/cordova/admob" />
 
-        <framework src="com.google.android.gms:play-services-ads:+" />
+        <dependency id="cordova-plugin-googleplayservices" />
      </platform>
      
      <!-- ios -->
